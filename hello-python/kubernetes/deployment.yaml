@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: hello-python
-        image: tiangolo/uwsgi-nginx-flask:latest
-        imagePullPolicy: Never
+        image: mahesh00000/hello-python:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 5000
